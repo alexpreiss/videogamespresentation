@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Video Game Presentation`,
     description: `Video games are the real deal man!`,
+    author: "Alex Preiss dawg",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
