@@ -67,7 +67,16 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <link
+        href="https://fonts.googleapis.com/css?family=Mansalva&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap"
+        rel="stylesheet"
+      />
+    </Helmet>
   )
 }
 

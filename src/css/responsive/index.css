@@ -1,0 +1,11 @@
+@media (max-width: 700px) {
+  .journey-image-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 701px) {
+  .journey-image-mobile {
+    display: none;
+  }
+}

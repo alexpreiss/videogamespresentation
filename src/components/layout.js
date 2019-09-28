@@ -1,15 +1,15 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+import "../css/utility.css"
+import "../css/responsive/utility.css"
+import "../css/global.css"
+import "../css/fonts.css"
+
 const Layout = ({ children }) => {
   return (
     <>
-      <div
-        style={{
-          margin: `0 auto`,
-          paddingTop: 0,
-        }}
-      >
+      <div>
         <main>{children}</main>
         <footer></footer>
       </div>

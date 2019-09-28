@@ -1,0 +1,268 @@
+/* color */
+.-background-color-blue {
+  background-color: #191f6c;
+}
+.-background-color-grey {
+  background-color: #e9e8ea;
+}
+.-background-color-dark-grey {
+  background-color: #2f2e32;
+}
+.-background-color-white {
+  background-color: white;
+}
+.-background-color-orange {
+  background-color: #fa6b01;
+}
+.-background-color-black {
+  background-color: black;
+}
+
+.-font-family-mansalva {
+  font-family: "Mansalva", cursive;
+}
+
+.-font-family-hylian {
+  font-family: "Hylian";
+}
+
+.-font-family-journey {
+  font-family: "Journey";
+}
+
+.-color-light-grey {
+  color: #b7b7b7;
+}
+.-color-white {
+  color: white;
+}
+.-color-orange {
+  color: #fa6b01;
+}
+.-color-grey {
+  color: #7f7f7f;
+}
+.-color-dark-grey {
+  color: #303030;
+}
+.-color-black {
+  color: black;
+}
+.-color-red {
+  color: red;
+}
+.-color-navy {
+  color: #191f6c;
+}
+
+/* flexbox */
+.-align-items-center {
+  align-items: center;
+}
+.-align-items-flex-start {
+  align-items: flex-start;
+}
+
+.-justify-content-center {
+  justify-content: center;
+}
+.-justify-content-space-around {
+  justify-content: space-around;
+}
+.-justify-content-space-between {
+  justify-content: space-between;
+}
+
+.-display-flex {
+  display: flex;
+}
+.-flex-direction-column {
+  flex-direction: column;
+}
+.-flex-1-1-0 {
+  flex: 1 1 0;
+}
+
+/* text */
+
+.-font-weight-100 {
+  font-weight: 100;
+}
+.-font-weight-200 {
+  font-weight: 200;
+}
+.-font-weight-300 {
+  font-weight: 300;
+}
+.-font-weight-400 {
+  font-weight: 400;
+}
+.-font-weight-500 {
+  font-weight: 500;
+}
+.-font-weight-600 {
+  font-weight: 600;
+}
+.-font-weight-700 {
+  font-weight: 700;
+}
+
+.-italic {
+  font-style: italic;
+}
+
+.-underline {
+  text-decoration: underline;
+}
+
+.-text-align-center {
+  text-align: center;
+}
+.-text-align-left {
+  text-align: left;
+}
+.-text-align-right {
+  text-align: right;
+}
+
+.-text-shadow {
+  text-shadow: 4px 4px 5px black;
+}
+
+.-text-decoration-none {
+  text-decoration: none;
+}
+.-text-decoration-orange {
+  text-decoration-color: #fa6b01;
+}
+
+/* margin */
+.-margin-auto {
+  margin: auto;
+}
+
+.-margin-0 {
+  margin: 0px;
+}
+
+.-margin-sides-small {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.-margin-sides-medium {
+  margin-left: 450px;
+  margin-right: 450px;
+}
+
+/* width */
+.-width-100 {
+  width: 100%;
+}
+.-width-50 {
+  width: 50%;
+}
+.-width-three-fourths {
+  width: 75%;
+}
+.-width-half {
+  width: 50%;
+}
+.-width-30-perc {
+  width: 30%;
+}
+.-width-42-perc {
+  width: 42%;
+}
+.-width-third {
+  width: 33%;
+}
+.-width-one-fourth {
+  width: 25%;
+}
+
+.-width-150 {
+  width: 150px;
+}
+
+.-max-width-500 {
+  max-width: 500px;
+}
+.-max-width-700 {
+  max-width: 700px;
+}
+
+/* weird flex but ok */
+.-position-absolute {
+  position: absolute;
+}
+.-position-relative {
+  position: relative;
+}
+.-position-fixed {
+  position: fixed;
+}
+.position-static {
+  position: static;
+}
+
+.-directions-0 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* misc */
+.-hidden {
+  display: none;
+}
+
+.-overflow-hidden {
+  overflow: hidden;
+}
+
+.-object-fit-cover {
+  object-fit: cover;
+}
+.-object-fit-fill {
+  object-fit: fill;
+}
+.-object-position-top {
+  object-position: top;
+}
+
+.-cursor-pointer {
+  cursor: pointer;
+}
+
+.-user-select-none {
+  user-select: none;
+}
+
+.-border-bottom-orange {
+  border-bottom: 3px solid #fa6b01;
+}
+
+.-border-1-black {
+  border: 1px black solid;
+}
+
+.-border-1-grey {
+  border: 1px #dedede solid;
+}
+
+.-display-block {
+  display: block;
+}
+
+.-display-none {
+  display: none;
+}
+
+.-brightness-60 {
+  filter: brightness(60%);
+}
+
+.-bottom-0 {
+  bottom: 0;
+}
