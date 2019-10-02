@@ -61,11 +61,11 @@ export default class IndexPage extends React.Component {
       /> */}
       <div className="-font-size-heading">
         Video games are held to lower regard than other forms of art, despite
-        being just as effective at telling stories as books or movies. A common
-        argument against video games is that they are violent and destructive
-        for kids to play. While this can be true in cases such as Grand Theft
-        Auto or Call of Duty, this is a shallow analysis, cherrypicking games on
-        the extreme of the spectrum.
+        being just as effective at telling stories. A common argument against
+        video games is that they are too violent and destructive for kids to
+        play. While this can be true in cases such as Grand Theft Auto or Call
+        of Duty, this is a shallow analysis as it cherry-picks games on the
+        extreme of the video game spectrum.
       </div>
     </div>,
     <div
@@ -78,12 +78,13 @@ export default class IndexPage extends React.Component {
       /> */}
       <div className="-font-size-heading">
         Generalizing video games in such a way is unfair. If this same logic was
-        applied to books and movies, the argument could be made that many books
-        such as Lord of the Flies and the entire action/horror movie genre are
-        equally as destructive. Focusing instead on games created with greater
-        intent, reveals many great pieces of art. Just as there is a plethora of
-        amazing, meaningful books and movies available to read or watch, despite
-        some odd fruit, their are plenty of video games that tell great stories.
+        applied to books and movies, an argument could be made that multiple
+        books such as Lord of the Flies and the entire action/horror movie
+        genres are equally as destructive. Games are often created with deeper
+        intent and focusing on these games reveals many great games that could
+        be considered pieces of art. Just as there are a plethora of amazing,
+        meaningful books and movies available to read or watch, with some
+        exceptions, there are plenty of video games that tell great stories.
       </div>
     </div>,
     <div
@@ -95,14 +96,15 @@ export default class IndexPage extends React.Component {
         fluid={this.props.data.gta.childImageSharp.fluid}
       /> */}
       <div className="-font-size-heading">
-        Videogames actually have an advantage in telling a story:
-        User-interaction. In writing, people can only experience the story
+        Videogames actually have an advantage in storytelling through their
+        user-interaction. User-interaction in video games is the player's
+        ability to interact with the digital world, generally by controlling a
+        character. In textual forms of art, the story can only be experienced
         through one dimension, their imagination. This is expanded upon in
-        movies, videos, and live performances, with visuals and sound. Video
-        games add another dimension of story telling in user-interaction. This
-        user interaction can tell a story in a very different way. The games
-        Journey and Loneliness are able to use game mechanics to tell a very
-        rich story without any dialogue.
+        movies, videos, and live performances, where visuals and sound help
+        deepen the storytelling experience. Video games add another dimension of
+        storytelling with user-interaction. The games Journey and Loneliness are
+        able to use game mechanics to tell a rich story without any dialogue.
       </div>
     </div>,
     <div
@@ -114,15 +116,16 @@ export default class IndexPage extends React.Component {
             fluid={this.props.data.gta.childImageSharp.fluid}
           /> */}
       <div className="-font-size-heading">
-        Instead of explicitly being told a story, the world's reactions to your
-        actions show you the story. These are called the games mechanics. A very
-        simplistic example of this is the game Loneliness. In Lonliness you are
-        a black square. You can move around in a space. As you move through the
-        space you may encounter other squares. If the player is to move towards
-        any of these squares, they will "run" and fade away. This is the
-        entirety of the game, but it is still able to tell a story. The player
-        of the game projects their own meaning onto these simple game mechanics
-        and interactions with the world.
+        Instead of explicitly being told a story, these games' worlds react to
+        the player's actions in order to communicate a story. These are called
+        the games mechanics. A very simplistic example of this is the game
+        Loneliness. In Lonliness the player is a black square. They move around
+        in a space. As they move through the space they may encounter other
+        squares. If the player is to move towards any of these squares, they
+        will "run" and fade away. This is the entirety of the game, but it is
+        still able to tell a story. The player of the game projects their own
+        meaning onto these simple game mechanics and interactions with the
+        world.
       </div>
     </div>,
     <div
@@ -135,13 +138,36 @@ export default class IndexPage extends React.Component {
               /> */}
       <div className="-font-size-heading">
         Using mechanics in a much less simplistic way, breathtaking works of art
-        can be made. Like Journey. Journey is a video game with no dialogue, but
-        a strong story no narrator. It also has amazing visuals, a fantastic
+        can be made. Like Journey. Journey is a video game with no dialogue, no
+        narrator but a strong story . It also has amazing visuals, a fantastic
         score. In fact in follows the heros journey, a common archetype(I think
         this is the word not sure though) used in many great myths and stories.
         It is able to do mainly through game mechanics with some supplemental
         cutscenes. It takes simple, natural game mechanics and tells the player
-        about the world with them.
+        about the world with them. Experiencing reactions to your own actions
+        can make the user feel much more connected to the story as they are
+        experiencing the cause and effect. These reactions are governed by the
+        game's mechanics and rules.
+      </div>
+    </div>,
+    <div
+      style={styles.slideInUp}
+      className="-display-flex -justify-content-center -align-items-center"
+    >
+      {/* <Image
+                className="-height-viewport -width-100"
+                fluid={this.props.data.gta.childImageSharp.fluid}
+              /> */}
+      <div className="-font-size-heading">
+        There are plently of games just like Journey and Loneliness which are
+        specifically created with the intent of communicating a higher meaning
+        or story. There are also games that aren't created with that intent
+        however, but they are not necessarily destructive either. Instead these
+        games could be equated to games such as basketball or chess, created
+        with the intent of making the player think critically or develop motor
+        and teamwork skills in order to compete. Examples of these games are
+        Counter-Strike which is equated the basketball or Magic the Gathering /
+        Hearthstone and Civilization which can be equated to chess.
       </div>
     </div>,
   ]
