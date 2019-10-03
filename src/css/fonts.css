@@ -7,3 +7,13 @@
   font-family: Journey;
   src: url("../../static/fonts/journey.ttf");
 }
+
+@font-face {
+  font-family: GTA;
+  src: url("../../static/fonts/gta.ttf");
+}
+
+@font-face {
+  font-family: COD;
+  src: url("../../static/fonts/cod.otf");
+}
