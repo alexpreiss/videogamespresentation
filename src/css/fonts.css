@@ -17,3 +17,18 @@
   font-family: COD;
   src: url("../../static/fonts/cod.otf");
 }
+
+@font-face {
+  font-family: MTG;
+  src: url("../../static/fonts/mtg.otf");
+}
+
+@font-face {
+  font-family: CSGO;
+  src: url("../../static/fonts/csgo.ttf");
+}
+
+@font-face {
+  font-family: LOL;
+  src: url("../../static/fonts/lol.otf");
+}

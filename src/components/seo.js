@@ -73,7 +73,7 @@ function SEO({ description, lang, meta, title }) {
         rel="stylesheet"
       />
       <link
-        href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap"
+        href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed&display=swap"
         rel="stylesheet"
       />
     </Helmet>

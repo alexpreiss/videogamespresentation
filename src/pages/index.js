@@ -17,17 +17,22 @@ import {
 
 import arrowLeft from "../images/arrow-left.png"
 import arrowRight from "../images/arrow-right.png"
+import journeyVideo from "../images/journey-video.mp4"
+import lonelinessVideo from "../images/loneliness-video.mp4"
+import journeyGif from "../images/journey.gif"
+import music from "../audio/ambient-zelda-music.mp3"
 
 import "../css/responsive/index.css"
 
 export default class IndexPage extends React.Component {
   constructor(props) {
     super(props)
-    this.state = { activePage: 1 }
+    this.state = { activePage: 1, paused: false }
 
     this.rightButtonClick = this.rightButtonClick.bind(this)
     this.leftButtonClick = this.leftButtonClick.bind(this)
     this.onSwipeMove = this.onSwipeMove.bind(this)
+    this.toggleAudio = this.toggleAudio.bind(this)
   }
 
   pages = [
@@ -37,10 +42,10 @@ export default class IndexPage extends React.Component {
     />,
     <SlideTwo src={this.props.data.gaben.childImageSharp.fluid} />,
     <SlideThree src={this.props.data.burningBooks.childImageSharp.fluid} />,
-    <SlideFour />,
-    <SlideFive />,
-    <SlideSix />,
-    <SlideSeven />,
+    <SlideFour src={journeyVideo} />,
+    <SlideFive src={lonelinessVideo} />,
+    <SlideSix src={journeyGif} />,
+    <SlideSeven src={this.props.data.csgoTournament.childImageSharp.fluid} />,
   ]
 
   rightButtonClick() {
@@ -59,6 +64,12 @@ export default class IndexPage extends React.Component {
     }
   }
 
+  toggleAudio() {
+    this.setState({ paused: !this.state.paused })
+    const musicEle = document.getElementById("music")
+    this.state.paused ? musicEle.play() : musicEle.pause()
+  }
+
   onSwipeMove(position, event) {
     position.x > 50 && this.rightButtonClick()
     position.x < -50 && this.leftButtonClick()
@@ -67,8 +78,18 @@ export default class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
+        <audio id="music" autoPlay>
+          <source src={music} type="audio/mp3"></source>
+        </audio>
         <SEO title="Video Game Presentation" />
         <div className="-height-viewport">
+          <div
+            className="-position-absolute"
+            style={{ zIndex: "4" }}
+            onClick={this.toggleAudio}
+          >
+            {this.state.paused ? "Resume Audio" : "Pause Audio"}
+          </div>
           <div
             style={{
               zIndex: "2",
@@ -119,6 +140,9 @@ export const query = graphql`
       ...fluidImage
     }
     burningBooks: file(relativePath: { eq: "burning-books.jpg" }) {
+      ...fluidImage
+    }
+    csgoTournament: file(relativePath: { eq: "csgo-tournament.jpg" }) {
       ...fluidImage
     }
   }

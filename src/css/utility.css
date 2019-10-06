@@ -38,6 +38,18 @@
   font-family: "COD";
 }
 
+.-font-family-lol {
+  font-family: "LOL";
+}
+
+.-font-family-csgo {
+  font-family: "CSGO";
+}
+
+.-font-family-mtg {
+  font-family: "MTG";
+}
+
 .-color-light-grey {
   color: #b7b7b7;
 }

@@ -2,9 +2,9 @@ body {
   color: black;
   margin: 0px;
   line-height: 1.5;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   user-select: none;
-  background-color: #162c5e;
+  background-color: black;
   color: white;
 }
 

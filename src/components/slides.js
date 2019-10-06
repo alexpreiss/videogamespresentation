@@ -88,13 +88,16 @@ export class SlideFour extends React.Component {
     return (
       <div
         style={styles.slideInUp}
-        className="-display-flex -justify-content-center -align-items-center"
+        className="-padding-3 -flex-direction-column -display-flex -justify-content-center -align-items-center"
       >
-        {/* <Image
-          className="-height-viewport -width-100"
-          fluid={this.props.data.gta.childImageSharp.fluid}
-        /> */}
-        <div className="-font-size-sub-heading">
+        <video
+          autoPlay
+          loop
+          className="-width-100"
+          muted
+          src={this.props.src}
+        />
+        <div className="-font-size-sub-heading -margin-top-3">
           Videogames actually have an advantage in storytelling through their
           user-interaction. User-interaction in video games is the player's
           ability to interact with the digital world, generally by controlling a
@@ -115,24 +118,26 @@ export class SlideFive extends React.Component {
   render() {
     return (
       <div
-        style={styles.zoomIn}
-        className="-display-flex -justify-content-center -align-items-center"
+        style={styles.slideInUp}
+        className="-padding-3 -flex-direction-column -display-flex -justify-content-center -align-items-center"
       >
-        {/* <Image
-                className="-height-viewport -width-100"
-                fluid={this.props.data.gta.childImageSharp.fluid}
-              /> */}
-        <div className="-font-size-sub-heading">
+        <video
+          autoPlay
+          loop
+          className="-width-100"
+          muted
+          src={this.props.src}
+        />
+        <div className="-font-size-sub-heading -margin-top-3">
           Instead of explicitly being told a story, these games' worlds react to
           the player's actions in order to communicate a story. These are called
           the games <i>mechanics</i>. A very simplistic example of this is the
-          game
-          <i>Loneliness</i>. In <i>Loneliness</i> the player is a black square.
-          They move around in a space. As they move through the space they may
-          encounter other squares. If the player is to move towards any of these
-          squares, they will "run" and fade away. This is the entirety of the
-          game, but it is still able to tell a story. The player of the game
-          projects their own meaning onto these simple game mechanics and
+          game <i>Loneliness</i>. In <i>Loneliness</i> the player is a black
+          square. They move around in a space. As they move through the space
+          they may encounter other squares. If the player is to move towards any
+          of these squares, they will "run" and fade away. This is the entirety
+          of the game, but it is still able to tell a story. The player of the
+          game projects their own meaning onto these simple game mechanics and
           interactions with the world.
         </div>
       </div>
@@ -144,26 +149,25 @@ export class SlideSix extends React.Component {
     return (
       <div
         style={styles.slideInUp}
-        className="-display-flex -justify-content-center -align-items-center"
+        className="-padding-3 -flex-direction-column -display-flex -justify-content-center -align-items-center"
       >
-        {/* <Image
-                  className="-height-viewport -width-100"
-                  fluid={this.props.data.gta.childImageSharp.fluid}
-                /> */}
-        <div className="-font-size-sub-heading">
+        <img className="-width-100" src={this.props.src} />
+
+        <div className="-font-size-sub-heading -margin-top-3">
           Using mechanics in a much less simplistic way, breathtaking works of
-          art can be made. A good example is the game <i>Journey</i>.{" "}
-          <i>Journey</i> is a video game with no dialogue or narrator, that
-          still manages to tell a strong story. It also has amazing visuals, a
-          fantastic score, in fact it was the first videogame ever nominated for
-          a Grammy. It follows The Hero's Journey, a common story model used in
-          many great myths and stories. It is able to do this mainly through
-          game mechanics with some supplemental cutscenes. It takes simple,
-          natural game mechanics and tells the player about the world through
-          them. Experiencing reactions to their actions can make the user feel
-          much more connected to the story as they are experiencing the cause
-          and effect. These reactions are governed by the game's mechanics and
-          rules.
+          art can be made. A good example is the game{" "}
+          <span className="-font-family-journey">Journey</span>.{" "}
+          <span className="-font-family-journey">Journey</span> is a video game
+          with no dialogue or narrator, that still manages to tell a strong
+          story. It also has amazing visuals, and a fantastic score, in fact it
+          was the first videogame ever nominated for a Grammy. It follows The
+          Hero's Journey, a common story model used in many great myths and
+          stories. It is able to do this mainly through game mechanics with some
+          supplemental cutscenes. It takes simple, natural game mechanics and
+          tells the player about the world through them. Experiencing reactions
+          to their actions can make the user feel much more connected to the
+          story as they are experiencing the cause and effect. These reactions
+          are governed by the game's mechanics and rules.
         </div>
       </div>
     )
@@ -174,23 +178,22 @@ export class SlideSeven extends React.Component {
     return (
       <div
         style={styles.slideInUp}
-        className="-display-flex -justify-content-center -align-items-center"
+        className="-padding-3 -flex-direction-column -display-flex -justify-content-center -align-items-center"
       >
-        {/* <Image
-                  className="-height-viewport -width-100"
-                  fluid={this.props.data.gta.childImageSharp.fluid}
-                /> */}
-        <div className="-font-size-sub-heading">
-          There are plently of games just like Journey and Loneliness which are
-          specifically created with the intent of communicating a higher meaning
-          or story. There are also games that aren't created with that intent
-          however, but they are not necessarily destructive either. Instead
-          these games could be equated to games such as basketball or chess,
-          created with the intent of making the player think critically or
-          develop motor and teamwork skills in order to compete. Examples of
-          these games are Counter-Strike which is equated the basketball or
-          Magic the Gathering / Hearthstone and Civilization which can be
-          equated to chess.
+        <Image className="-width-100" fluid={this.props.src} />
+
+        <div className="-font-size-sub-heading -margin-top-3">
+          Along with games such as{" "}
+          <span className="-font-family-journey">Journey</span>, there are also
+          violent video games that, at a glance, may seem destructive. Instead
+          these games are valuable in the same sense that sports are. Games such
+          as <span className="-font-family-lol">League of Legends</span>,
+          <span className="-font-family-csgo"> Counter-Strike </span>, and{" "}
+          <span className="-font-family-mtg">Magic the Gathering</span> are
+          valuable because of the strategy, team-work, or motor skills necessary
+          to succeed in them. These games are considered <i>Esports</i> and have
+          thriving communities. Large Esports events have upwards of 10,000
+          attendants and 1 million concurrent viewers.
         </div>
       </div>
     )
